@@ -1,0 +1,50 @@
+#!/usr/bin/env sh
+
+LF_UEBERZUG_TEMPDIR="/home/$(whoami)/.cache/lf/ueberzug"
+
+preview() {
+    jp2a --width=100 --color "$1"
+}
+
+file="$1"; shift
+case "$(basename "$file" | tr '[:upper:]' '[:lower:]')" in
+*.tar*) tar tf "$file" ;;
+*.zip) unzip -l "$file" ;;
+*.rar) unrar l "$file" ;;
+*.7z) 7z l "$file" ;;
+*.avi|*.mp4|*.mkv)
+    thumbnail="$LF_UEBERZUG_TEMPDIR/thumbnail.jpg"
+    ffmpeg -y -i "$file" -vframes 1 "$thumbnail"
+    preview "$thumbnail" "$@"
+    ;;
+*.pdf)
+    # Extracción de contenido de la primera página del PDF a un archivo de texto temporal
+    temp_text="$LF_UEBERZUG_TEMPDIR/temp_text.txt"
+    pdftotext -layout -f 1 -l 1 "$file" "$temp_text" >/dev/null
+
+    # Mostrar el contenido de la primera página del PDF
+    cat "$temp_text"
+
+    # Eliminar el archivo de texto temporal
+    rm "$temp_text"
+    ;;
+*.jpg|*.jpeg|*.bmp)
+    preview "$file" "$@" ;;
+*.png)
+    thumbnail="$LF_UEBERZUG_TEMPDIR/thumbnail.jpg"
+    convert "$file" "$thumbnail"
+    preview "$thumbnail" "$@"
+    ;;
+*.svg)
+    thumbnail="$LF_UEBERZUG_TEMPDIR/thumbnail.jpg"
+    convert "$file" "$thumbnail"
+    preview "$thumbnail" "$@"
+    ;;
+*.gif)
+    thumbnail="$LF_UEBERZUG_TEMPDIR/thumbnail.jpg"
+    convert "$file[0]" "$thumbnail"
+    preview "$thumbnail" "$@"
+    ;;
+*) cat "$file" ;;
+esac
+return 127 # nonzero retcode required for lf previews to reload

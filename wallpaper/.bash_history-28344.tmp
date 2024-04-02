@@ -1,0 +1,500 @@
+sudo s6-rc -u change networkmanager
+sudo s6-rc -u change networkmanager
+picom
+picom --experimental-backends -b
+clear
+s6-svstat /run/service/NetworkManager
+s6-svstat /run/service/NetworkManager
+s6-rc -a list
+picom
+clear
+clear
+xprop | grep WM_CLASS
+chmod +x handle_volume.sh 
+./handle_volume.sh 
+./handle_volume.sh increase
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+clear
+i3-volumne
+i3-volume
+i3-volume
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh decrease
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+./handle_volume.sh increase
+clear
+./scripts/handle_volume.sh 
+./scripts/handle_volume.sh increase
+./scripts/handle_volume.sh increase
+./scripts/handle_volume.sh increase
+./scripts/handle_volume.sh increase
+./scripts/handle_volume.sh increase
+./scripts/handle_volume.sh increase
+/home/jeremy/.icons/Uos-fulldistro-icons/actions/24/kdenlive-show-audio.svg
+cat /home/jeremy/.icons/Uos-fulldistro-icons/actions/24/kdenlive-show-audio.svg
+./scripts/handle_volume.sh increase
+./scripts/handle_volume.sh increase
+./scripts/handle_volume.sh increase
+./scripts/handle_volume.sh toogle_mute
+./scripts/handle_volume.sh toggle_mute
+./scripts/handle_volume.sh toggle_mute
+pkill -KILL notify-send
+pkill -KILL notify-send
+pkill -KILL notify-send
+pkill -KILL notify-send
+clear
+./scripts/handle_volume.sh toggle_mute
+./scripts/handle_volume.sh toggle_mute
+./scripts/handle_volume.sh toggle_mute
+chmod +x handle_bright.sh 
+chmod +x scripts/handle_bright.sh
+./scripts/handle_bright.sh 10 up
+find /sys/class/backlight/ -type d
+cd .
+cd ..
+cd ..
+ls
+find /sys/class/backlight/ -type d
+cd /sys/class/backlight/
+ls
+ls
+cd intel_backlight
+ls
+./scripts/handle_bright.sh 10 up
+cd
+./scripts/handle_bright.sh 10 up
+./scripts/handle_bright.sh 10 up
+cd /sys/class/backlight/
+cd intel_backlight
+ls
+cd
+./scripts/handle_bright.sh 10 up
+./scripts/handle_bright.sh 50 up
+./scripts/handle_bright.sh 50 up
+./scripts/handle_bright.sh 50 up
+./scripts/handle_bright.sh 50 up
+./scripts/handle_bright.sh 50 up
+./scripts/handle_bright.sh 50 up
+./scripts/handle_bright.sh 50 up
+./scripts/handle_bright.sh 50 down
+./scripts/handle_bright.sh 50 down
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+sudo 
+sudo cd /etc/sudoers.d
+jeremy123
+sudo cd /etc/sudoers.d
+sudo visudo
+sudo visudo
+sudo visudo
+clear
+sudo visudo
+sudo visudo -f /etc/sudoers
+sudo nano -f /etc/sudoers
+sudo nano /etc/sudoers.d/
+sudo EDITOR=nano visudo
+sudo EDITOR=nano visudo
+sudo EDITOR=code visudo
+sudo EDITOR=code visudo --no-sandbox
+sudo EDITOR=code --no-sandbox visudo 
+sudo EDITOR=code visudo
+sudo EDITOR=nano visudo
+sudo EDITOR=nano visudo
+sudo EDITOR=nano visudo
+clear
+whoami
+sudo ./scripts/handle_bright.sh
+id
+sudo ./scripts/handle_bright.sh
+clear
+sudo EDITOR=nano visudo
+sudo ./scripts/handle_bright.sh
+sudo ./scripts/handle_bright.sh
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 down
+sudo chmod a+w /sys/class/backlight/intel_backlight/brightness
+sudo chmod a+w /sys/class/backlight/intel_backlight/brightness
+./scripts/handle_bright.sh 1500 down
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+sudo EDITOR=nano visudo
+sudo EDITOR=nano visudo
+sudo EDITOR=nano visudo
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+sudo EDITOR=nano visudo
+./scripts/handle_bright.sh 1500 up
+sudo EDITOR=nano visudo
+sudo EDITOR=nano visudo
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+sudo EDITOR=nano visudo
+sudo EDITOR=nano visudo
+sudo EDITOR=nano visudo
+sudo EDITOR=nano visudo
+sudo nano /etc/sudoers
+./scripts/handle_bright.sh 1500 up
+sudo EDITOR=nano visudo
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+sudo reset-sudo
+cd /etc/sudoers.d/
+sudo cd /etc/sudoers.d/
+sudo ls /etc/sudoers.d/
+sudo nano /etc/sudoers.d/10-installer
+./scripts/handle_bright.sh 1500 up
+chmod +x /home/jeremy/scripts/handle_bright.sh
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+CCLEAR
+clear
+sudo usermod -aG video jeremy
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+./scripts/handle_bright.sh 1500 up
+yay light
+light -G
+light -A 5
+light -A 1500
+light -G
+light -h
+light -L
+light -A 100
+light -A 40
+light -U 10
+light -U 10
+light -U 10
+light -U 10
+light -U 10
+clear
+light -h
+light -G
+light -N 30
+light -S 50
+light -S "50"
+light -S 5
+./scripts/handle_bright.sh 10 up
+./scripts/handle_bright.sh 10 up
+./scripts/handle_bright.sh 10 up
+./scripts/handle_bright.sh 10 up
+./scripts/handle_bright.sh 10 up
+./scripts/handle_bright.sh 100 up
+./scripts/handle_bright.sh 100 down
+./scripts/handle_bright.sh 10 up
+yay xrandr
+./scripts/handle_bright.sh 10 up
+sudo pacman -S xorg-xrandr
+./scripts/handle_bright.sh 10 up
+./scripts/handle_bright.sh 10 down
+./scripts/handle_bright.sh 10 down
+./scripts/handle_bright.sh 10 up
+./scripts/handle_bright.sh 0 down
+./scripts/handle_bright.sh 0 down
+./scripts/handle_bright.sh 10 down
+./scripts/handle_bright.sh 20 down
+./scripts/handle_bright.sh 11 down
+./scripts/handle_bright.sh 10 down
+./scripts/handle_bright.sh 10 up
+./scripts/handle_bright.sh 10 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 down
+./scripts/handle_bright.sh 0.05 up
+./scripts/handle_bright.sh 0.05 up
+./scripts/handle_bright.sh 0.05 up
+./scripts/handle_bright.sh 0.05 up
+./scripts/handle_bright.sh 0.05 up
+./scripts/handle_bright.sh 0.05 up
+./scripts/handle_bright.sh 0.05 up
+./scripts/handle_bright.sh 0.05 up
+./scripts/handle_bright.sh 0.05 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+clear
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 down
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+clear
+clear
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+./scripts/handle_bright.sh 0.1 up
+clear
+yay lf
+sudo pacman -S lf
+sudo pacman -S yaourt
+yaourt -S lf
+env CGO_ENABLED=0 go install -ldflags="-s -w" github.com/gokcehan/lf@latest
+lf
+lsfd
+clear
+lf
+env CGO_ENABLED=0 go install -ldflags="-s -w" github.com/gokcehan/lf@latest
+lf
+yay lf
+yay lf-bin
+lf
+lf -help
+clear
+lf
+lf
+lf
+clear
+lf
+clear
+lf
+clear
+code .
+warp new
+warp run lf
+warp-terminal new
+warp-terminal run lf
+warp-terminal run ls
+warp-terminal run "ls"
+warp-terminal help
+warp-terminal --help
+_warp_execute_command lf
+warp-git lf
+warp_git lf
+warp_preexec lf
+lf
+clear
+clear
+#!/bin/bash
+warp
+command
+#!/bin/bash
+warp-terminal
+ls
+ls
+lr
+lf
+clear
+clear
+lf
+ls
+lf
+lf
+cd .config/
+clear
+ls
+clear
+lf
+lf
+lf
+lf
+lf
+lf
+cd
+ls
+lf
+source ./bashrc
+lf
+./.bashrc 
+sudo ./.bashrc
+sudo ./.bash_profile 
+sudo source ./.bashrc 
+source ~/.bashrc
+source ~/.bashrc
+lf
+lf
+cleaer
+clear
+lf
+lf
+feh --bg-scale .config/wallpaper/wallpaper.png
+lf
+cd /etc/s6/sv/NetworkManager
+ls
+cd /etc/s6/sv/
+ls
+cd /etc/s6/sv/NetworkManager-log/
+ls
+cd NetworkManager-srv/
+ls
+yay color-picker
+warp-terminal -e "$(lf)"
+lf
+warp-terminal -e "$(lf)"
+echo hello, world
+lf
+cd 
+yay alacritty
+alacritty
+lf
+xprop | grep WM_CLASS
+clear

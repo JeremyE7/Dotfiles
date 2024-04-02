@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+LF_UEBERZUG_TEMPDIR="${LF_UEBERZUG_TEMPDIR:-$HOME/.lf-ueberzug-temp}"
+
+cat <<EOF | paste -sd '' >"$LF_UEBERZUG_TEMPDIR"
+{
+"action": "remove",
+"identifier": "lf-preview"
+}
+EOF
